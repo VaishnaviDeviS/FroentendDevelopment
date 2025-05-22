@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="form_style.css">
+</head>
+<body>
+
+    <div class="form">
+        <form action="submit" class="form_list">
+            <input type="text">
+            <input type="radio">
+            <input type="checkbox">
+            <input type="submit">
+            <input type="button">
+        </form>
+    </div>
+
+    <div>
+        <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">data</button>
+         <p id="demo"></p>
+    </div>
+
+
+    <button type="button" onclick='document.getElementById("dem").innerHTML="content"'>mybtm</button>
+    <p id="dem">click here</p>
+
+
+    <button type="button" onclick="document.getElementById('mybulb').src='images/bulbOff.png'">off bulb</button>
+
+    <img id="mybulb" src="images/bulbOff.png" alt="bulb">
+
+    <button type="button" onclick="document.getElementById('mybulb').src='images/bulbOn.png'">On bulb</button>
+
+
+    <button type="button" onclick="document.getElementById('change').style.color='red'">click to chage below para text color and font family</button>
+    <p id="change">hello Js</p>
+     <button type="button" onclick="document.getElementById('change').style.color='black'">click to chage below para remove color</button>
+
+
+     <button type="button" onclick="document.getElementById('hide data')"></button>
+   
+    
+</body>
+</html>
